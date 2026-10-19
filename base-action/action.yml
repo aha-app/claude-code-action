@@ -97,7 +97,7 @@ runs:
 
     - name: Install Bun
       if: inputs.path_to_bun_executable == ''
-      uses: aha-app/setup-bun@4f38e0e9baed160d462852e598c2bc2aa967ba65 # v2.2.0 with patched dependencies
+      uses: aha-app/setup-bun@287ba7306b77681cbc968c0721196844a452862c # v2.2.0 with patched dependencies
       with:
         bun-version: 1.3.6
 
